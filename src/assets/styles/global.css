@@ -7,7 +7,7 @@
     --main-background-color: #F5F0E6;
     --main-font-color: #F5F0E6;
     --vertical-line-footer-color: #F5F0E650;
-    --gradient-background-color: linear-gradient(0deg, #6A1B1A, #8E3E3E);
+    --gradient-background-color: #6A1B1A;
     --main-font-family: 'Lato', sans-serif;
 }
 
@@ -30,7 +30,6 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    text-align: center;
     margin: 0 auto;
     gap: 1rem;
     padding-top: 1rem;
@@ -41,7 +40,6 @@ footer {
     min-width: 200px;
     min-height: 260px;
     padding: 0 1rem;
-    border-right: 2px solid var(--vertical-line-footer-color);
     margin-top: -3rem;
 }
 
