@@ -1,0 +1,68 @@
+:root {
+    --main-background-color: #F5F0E6;
+    --main-font-color: #F5F0E6;
+    --contrast-background-color: #6A1B1A;
+    --link-hover-color: #CBA135;
+    --main-font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: var(--contrast-background-color);
+    color: var(--main-font-color);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+.header-menu a {
+    position: relative;
+    color: var(--main-font-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header-menu a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: 2px;
+    background-color: var(--link-hover-color);
+    transition: transform 0.3s ease;
+}
+
+.header-menu a:hover {
+    color: var(--link-hover-color);
+}
+
+.header-menu a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font-family);
+    background-color: var(--link-hover-color);
+}
