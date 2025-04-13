@@ -109,13 +109,13 @@ O arquivo `README.md` deve conter:
 - [ ] 5 arquivos HTML criados
 - [ ] index.html com navegação para as demais páginas
 - [ ] Heading tags e parágrafos aplicados
-- [ ] Lista (ul ou ol) usada em pelo menos uma página
+- [X] Lista (ul ou ol) usada em pelo menos uma página
 - [ ] Tabela HTML com conteúdo relevante
 - [ ] Formulário com input, textarea e botão
 - [ ] Tags semânticas aplicadas corretamente
 - [ ] Meta tags (`keywords`, `description`) em cada página
 - [ ] Estilos com CSS usando classes e ids
-- [ ] Box Model aplicado (margin, padding, border)
+- [X] Box Model aplicado (margin, padding, border)
 - [ ] Algum elemento com `position` aplicado
 - [ ] Imagens em todas as páginas
 - [ ] Vídeo inserido
