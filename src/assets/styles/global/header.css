@@ -1,5 +1,5 @@
 header {
-    background-color: var(--contrast-background-color);
+    background-color: var(--primary-wine-color);
     color: var(--transparent-font-color);
     padding: 2rem;
     display: flex;
