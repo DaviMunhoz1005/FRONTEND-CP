@@ -94,3 +94,17 @@ form button {
 form button:hover {
     background-color: var(--secundary-wine-color);
 }
+
+.swal2-confirm {
+    background-color: var(--primary-wine-color) !important;
+    padding: 0.8rem 1.2rem !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: 0.3s !important;
+}
+
+.swal2-confirm:hover {
+    background-color: var(--secundary-wine-color) !important;
+}

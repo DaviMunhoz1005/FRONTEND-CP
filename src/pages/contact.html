@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../assets/styles/contact.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="../js/contactForm.js"></script>
 </head>
 <body>
     <header>
@@ -29,7 +31,7 @@
         <div class="contact-wrapper">
             <img id="main-img-contact" src="../assets/imgs/glass-wine.jpg" alt="Taça de vinho" />
             <section class="contact">
-                <form action="">
+                <form action="" id="contact-form">
                     <h3>Fale conosco</h3>
                     <input type="email" name="email-user" id="email-user" placeholder="Seu melhor e-mail">
                     <input type="text" name="message-user" id="message-user" placeholder="Escreva sua mensagem com carinho...">
