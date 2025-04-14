@@ -1,0 +1,27 @@
+@import url('footer.css');
+@import url('header.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-background-color: #F5F0E6;
+    --transparent-font-color: #F5F0E6;
+    --primary-wine-color: #6A1B1A;
+    --secundary-wine-color: #9e2a2f;
+    --link-hover-color: #CBA135;
+    --primary-gold-color: #CBA135;
+    --secundary-gold-color: #f4e1b2;
+    --primary-card-bg-color: #ffffff3f;
+    --main-font-color: #333;
+    --main-font-family: 'Lato', sans-serif;
+    --special-font-family: 'Great Vibes', cursive;
+}
+
+body {
+    font-family: var(--main-font-family);
+    background-color: var(--main-background-color);
+}

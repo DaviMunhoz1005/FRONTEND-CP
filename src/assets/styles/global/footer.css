@@ -1,0 +1,129 @@
+footer {
+    background: var(--primary-wine-color);
+    color: var(--transparent-font-color);
+    padding: 5rem 1rem 1rem 1rem;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    min-height: 260px;
+    padding: 0 1rem;
+    margin-top: -3rem;
+}
+
+.footer-col:last-child {
+    border-right: none;
+}
+
+.footer-col h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.footer-col p {
+    font-size: 1.2rem;
+}
+
+.footer-col ul {
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-col a {
+    position: relative;
+    color: var(--transparent-font-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--link-hover-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.footer-col a:hover {
+    color: var(--link-hover-color);
+}
+
+.footer-col a:hover::after {
+    width: 100%;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo p.logo-subtitle {
+    font-family: var(--special-font-family);
+    font-size: 3rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#footer-links {
+    padding-left: 5rem;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;         
+    margin-bottom: 20px;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+#footer-contact-phone-icon-svg, #footer-contact-mail-icon-svg, #footer-contact-location-icon-svg {
+    width: 30px;
+}
+
+.footer-socialmedia {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.footer-socialmedia img {
+    transition: filter 0.3s ease;
+    filter: sepia(17%) saturate(565%) hue-rotate(346deg) brightness(94%) contrast(90%);
+}
+
+.footer-socialmedia img:hover {
+    filter: sepia(71%) saturate(794%) hue-rotate(357deg) brightness(100%) contrast(93%);
+}
+
+#footer-socialmedia-facebook-icon-svg,
+#footer-socialmedia-linkedin-icon-svg,
+#footer-socialmedia-whatsapp-icon-svg {
+    width: 50px;
+}
+
+#footer-socialmedia-instagram-icon-svg {
+    width: 60px;
+}
