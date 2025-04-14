@@ -1,14 +1,6 @@
-:root {
-    --main-background-color: #F5F0E6;
-    --main-font-color: #F5F0E6;
-    --contrast-background-color: #6A1B1A;
-    --link-hover-color: #CBA135;
-    --main-font-family: 'Lato', sans-serif;
-}
-
 header {
     background-color: var(--contrast-background-color);
-    color: var(--main-font-color);
+    color: var(--transparent-font-color);
     padding: 2rem;
     display: flex;
     justify-content: space-between;
@@ -37,7 +29,7 @@ header {
 
 .header-menu a {
     position: relative;
-    color: var(--main-font-color);
+    color: var(--transparent-font-color);
     text-decoration: none;
     transition: color 0.3s;
 }

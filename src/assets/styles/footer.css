@@ -1,14 +1,6 @@
-:root {
-    --main-background-color: #F5F0E6;
-    --main-font-color: #F5F0E6;
-    --contrast-background-color: #6A1B1A;
-    --link-hover-color: #CBA135;
-    --main-font-family: 'Lato', sans-serif;
-}
-
 footer {
     background: var(--contrast-background-color);
-    color: var(--main-font-color);
+    color: var(--transparent-font-color);
     padding: 5rem 1rem 1rem 1rem;
     margin-top: 30px;
 }
@@ -42,7 +34,6 @@ footer {
 
 .footer-col p {
     font-size: 1.2rem;
-    margin-top: 50px;
 }
 
 .footer-col ul {
@@ -54,12 +45,11 @@ footer {
 
 .footer-col a {
     position: relative;
-    color: var(--main-font-color);
+    color: var(--transparent-font-color);
     text-decoration: none;
     transition: color 0.3s;
 }
 
-/* Animação da linha */
 .footer-col a::after {
     content: '';
     position: absolute;
@@ -78,4 +68,20 @@ footer {
 
 .footer-col a:hover::after {
     width: 100%;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;         
+    margin-bottom: 20px;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+#footer-contact-phone-icon-svg, #footer-contact-mail-icon-svg, #footer-contact-location-icon-svg {
+    width: 24px;
+    height: 24px;
 }
