@@ -1,9 +1,10 @@
+@import url('global/global.css');
+
 .contact-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    font-family: 'Lato', sans-serif;
     color: var(--main-font-color);
 }
 
@@ -21,8 +22,8 @@
 }
 
 #main-img-contact {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     object-fit: cover;
     border-radius: 40% / 30%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
