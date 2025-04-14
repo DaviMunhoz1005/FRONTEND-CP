@@ -25,7 +25,7 @@ O site institucional do SocialConnect utiliza as seguintes tecnologias:
 | `Nossa Hitória`| Conta a história da marca e o legado da família Agnello.                  |
 | `Produtos`| Explica as categorias de produtos oferecidos.                             |
 | `Contato` | Apresenta a equipe e as formas de contato.                                |
-| `tema.html`    | Página adicional com tema a ser definido.                                 |
+| `Equipe`    | Mostra a equipe que trabalha na Vinheria e os desenvolvedores do site.                                 |
 
 # Integrantes do Grupo  
 

@@ -12,6 +12,7 @@ footer {
     margin: 0 auto;
     gap: 1rem;
     padding-top: 1rem;
+    padding-left: 3rem;
 }
 
 .footer-col {
@@ -70,6 +71,23 @@ footer {
     width: 100%;
 }
 
+#footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo p.logo-subtitle {
+    font-family: var(--special-font-family);
+    font-size: 3rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#footer-links {
+    padding-left: 5rem;
+}
+
 .footer-contact {
     display: flex;
     align-items: center;
@@ -82,6 +100,30 @@ footer {
 }
 
 #footer-contact-phone-icon-svg, #footer-contact-mail-icon-svg, #footer-contact-location-icon-svg {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+}
+
+.footer-socialmedia {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.footer-socialmedia img {
+    transition: filter 0.3s ease;
+    filter: sepia(17%) saturate(565%) hue-rotate(346deg) brightness(94%) contrast(90%);
+}
+
+.footer-socialmedia img:hover {
+    filter: sepia(71%) saturate(794%) hue-rotate(357deg) brightness(100%) contrast(93%);
+}
+
+#footer-socialmedia-facebook-icon-svg,
+#footer-socialmedia-linkedin-icon-svg,
+#footer-socialmedia-whatsapp-icon-svg {
+    width: 50px;
+}
+
+#footer-socialmedia-instagram-icon-svg {
+    width: 60px;
 }
