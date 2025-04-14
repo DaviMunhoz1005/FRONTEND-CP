@@ -6,6 +6,10 @@
 
 :root {
     --main-background-color: #F5F0E6;
+    --transparent-font-color: #F5F0E6;
+    --contrast-background-color: #6A1B1A;
+    --link-hover-color: #CBA135;
+    --main-font-color: #333;
     --main-font-family: 'Lato', sans-serif;
 }
 
