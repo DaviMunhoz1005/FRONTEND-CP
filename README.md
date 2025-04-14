@@ -2,7 +2,7 @@
 
 Checkpoint 1 para a disciplina de Front-end Design FIAP
 
-##### Para Acessar o site clique [aqui]().
+##### Para Acessar o site clique [aqui](https://davimunhoz1005.github.io/FRONTEND-CP1/).
 
 ## Sobre o Projeto
 
@@ -10,11 +10,12 @@ A Vinheria Agnello é uma empresa tradicional que utiliza um ERP para gestão fi
 
 ## Tecnologias Utilizadas
 
-O site institucional do SocialConnect utiliza as seguintes tecnologias:
+O site e-commerce da vinheria utilizou dessas tecnologias:
 
 <div style="display: flex; gap: 10px;">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
 </div>
 
 ## Estrutura do Projeto  
@@ -22,7 +23,7 @@ O site institucional do SocialConnect utiliza as seguintes tecnologias:
 | Página         | Descrição                                                                 |
 |----------------|---------------------------------------------------------------------------|
 | `Homepage`   | Página inicial com índice navegável.                                      |
-| `Nossa Hitória`| Conta a história da marca e o legado da família Agnello.                  |
+| `Nossa História`| Conta a história da marca e o legado da família Agnello.                  |
 | `Produtos`| Explica as categorias de produtos oferecidos.                             |
 | `Contato` | Apresenta a equipe e as formas de contato.                                |
 | `Equipe`    | Mostra a equipe que trabalha na Vinheria e os desenvolvedores do site.                                 |
