@@ -14,10 +14,11 @@
     --secundary-wine-color: #9e2a2f;
     --link-hover-color: #CBA135;
     --primary-gold-color: #CBA135;
-    --secundary-gold-color:#f4e1b2;
+    --secundary-gold-color: #f4e1b2;
     --primary-card-bg-color: #ffffff3f;
     --main-font-color: #333;
     --main-font-family: 'Lato', sans-serif;
+    --special-font-family: 'Great Vibes', cursive;
 }
 
 body {
