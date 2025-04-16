@@ -1,0 +1,66 @@
+@import url('global/global.css');
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+.inicio {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fcfcfc;
+    color: #681c1c;
+}
+.inicio h1 {
+    font-family: var(--special-font-family);
+    font-size: 5rem;
+}
+.inicio h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    margin-bottom: 30px;
+    color: #681c1c;
+}
+.inicio p{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #681c1c;
+}
+.guia {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+  
+.guia h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #681c1c;
+}
+  
+.item {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 4px solid #681c1c;
+    background-color: #fdf8f4;
+    border-radius: 8px;
+}
+  
+.item h3 {
+    margin: 0 0 8px;
+    color: #681c1c;
+    font-size: 1.3rem;
+}
+  
+.item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
