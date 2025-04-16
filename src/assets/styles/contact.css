@@ -104,6 +104,28 @@ form button:hover {
     background-color: var(--secundary-wine-color);
 }
 
+form textarea {
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--secundary-wine-color);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    font-family: var(--main-font-family);
+    font-size: 1rem;
+    color: var(--main-font-color);
+    resize: vertical;
+    transition: 0.3s;
+}
+
+form textarea:focus {
+    outline: none;
+    border-color: var(--primary-wine-color);
+    box-shadow: 0 0 5px var(--secundary-wine-color);
+}
+
+form textarea::placeholder {
+    color: #888;
+}
+
 .swal2-confirm {
     background-color: var(--primary-wine-color) !important;
     padding: 0.8rem 1.2rem !important;
