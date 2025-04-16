@@ -42,7 +42,7 @@
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
-    background: #f9f9f9;
+    background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     font-family: var(--terciary-font-family);
@@ -71,4 +71,24 @@
 .item p {
     margin: 0;
     line-height: 1.6;
+}
+
+.right img {
+    position: absolute;
+    top: 1410px;
+    bottom: 50px; 
+    right: 45px;   
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 50px;   
+}
+
+.left img{
+    position:absolute;
+    top: 1410px;
+    bottom: 50px;
+    left: 45px;    
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
 }
