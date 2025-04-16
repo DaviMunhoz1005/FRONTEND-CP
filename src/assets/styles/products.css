@@ -1,0 +1,37 @@
+@import url('global/global.css');
+#vinhos-cadastrados {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#vinhos-cadastrados h2 {
+    font-size: 32px;
+    color: #023047;
+    margin-bottom: 20px;
+}
+
+.vinhos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaço entre os cards */
+}
+
+
+.vinho-card {
+    width: 18%; /* Largura de cada card (aproximadamente 1/5 da linha) */
+    background-color:#6B1B14;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+.vinho-card:hover {
+    transform: scale(1.05); /* Um leve zoom ao passar o mouse */
+}
+.vinho-card img {
+    width: 50%; /* Para as imagens ocuparem toda a largura disponível do card */
+    height: 45%;
+    border-radius: 10px;
+}
