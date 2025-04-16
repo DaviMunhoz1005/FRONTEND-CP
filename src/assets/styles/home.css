@@ -9,7 +9,7 @@
 .inicio {
     padding: 60px 20px;
     text-align: center;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     color: #681c1c;
 }
 .inicio h1 {
@@ -31,11 +31,11 @@
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
-    background: #f9f9f9;
+    background: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     font-family: 'Segoe UI', sans-serif;
-    color: #333;
+    color: #020202;
 }
   
 .guia h2 {
@@ -63,4 +63,22 @@
     margin: 0;
     line-height: 1.6;
 }
+.right img {
+    position: absolute;
+    top: 1410px;
+    bottom: 50px; 
+    right: 45px;   
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 50px;   
+}
+.left img{
+    position:absolute;
+    top: 1410px;
+    bottom: 50px;
+    left: 45px;    
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
 
+}
