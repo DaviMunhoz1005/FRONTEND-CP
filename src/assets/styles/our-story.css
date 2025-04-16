@@ -1,0 +1,6 @@
+@import url('global/global.css');
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
