@@ -52,6 +52,11 @@
     font-weight: bold;
 }
 
+.vinho-card a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
 .vinho-card p {
     font-size: 1rem;
     margin: 0.3rem 0;
