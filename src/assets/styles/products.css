@@ -46,7 +46,7 @@
     margin-bottom: 1rem;
 }
 
-.vinho-card h3 {
+.vinho-card figcaption {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
@@ -101,10 +101,4 @@
 
 .tabela-vinhos tbody tr:nth-child(even) {
     background-color: var(--secundary-gold-color);
-}
-
-.tabela-vinhos tbody tr:hover {
-    background-color: var(--primary-card-bg-color);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
