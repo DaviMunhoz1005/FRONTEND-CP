@@ -3,9 +3,25 @@ const form = document.getElementById("contact-form");
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
-    const email = document.getElementById("email-user").value;
-    const message = document.getElementById("message-user").value;
+    const name = document.getElementById("name-user").value.trim();
+    const email = document.getElementById("email-user").value.trim();
+    const message = document.getElementById("message-user").value.trim();
 
+    if (!name || !email || !message) {
+        Swal.fire({
+            title: "Campos obrigatórios",
+            text: "Por favor, preencha todos os campos antes de enviar.",
+            icon: "warning",
+            iconColor: "#9e2a2f",
+            confirmButtonText: "Ok",
+            customClass: {
+                confirmButton: 'swal2-confirm'
+            }
+        });
+        return;
+    }
+
+    console.log("Nome:", name);
     console.log("Email:", email);
     console.log("Mensagem:", message);
 
@@ -20,5 +36,5 @@ form.addEventListener("submit", function(event) {
         }
     }).then(() => {
         location.reload();
-    });    
+    });
 });

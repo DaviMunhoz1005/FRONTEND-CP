@@ -2,7 +2,7 @@
 
 Checkpoint 1 para a disciplina de Front-end Design FIAP
 
-##### Para Acessar o site clique [aqui]().
+##### Para Acessar o site clique [aqui](https://davimunhoz1005.github.io/FRONTEND-CP1/).
 
 ## Sobre o Projeto
 

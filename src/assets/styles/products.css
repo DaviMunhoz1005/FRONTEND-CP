@@ -1,0 +1,109 @@
+@import url('global/global.css');
+
+#vinhos-cadastrados {
+    margin-top: 2rem;
+    background-color: var(--main-background-color);
+    text-align: center;
+}
+
+#vinhos-cadastrados h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-wine-color);
+    font-family: var(--special-font-family);
+}
+
+.vinhos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.vinho-card {
+    flex: 1 1 250px;
+    max-width: 300px;
+    background-color: var(--primary-card-bg-color);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: var(--main-font-color);
+}
+
+.vinho-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.vinho-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.vinho-card figcaption {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.vinho-card a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+.vinho-card p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+#comparacao-vinhos {
+    margin: 3rem auto;
+    text-align: center;
+    font-family: var(--main-font-family);
+    color: var(--main-font-color);
+}
+
+#comparacao-vinhos h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-wine-color);
+    font-family: var(--special-font-family);
+}
+
+.tabela-container {
+    overflow-x: auto;
+    padding: 0 1rem;
+}
+
+.tabela-vinhos {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabela-vinhos thead {
+    background-color: var(--primary-wine-color);
+    color: var(--transparent-font-color);
+}
+
+.tabela-vinhos th,
+.tabela-vinhos td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--secundary-gold-color);
+}
+
+.tabela-vinhos tbody tr:nth-child(even) {
+    background-color: var(--secundary-gold-color);
+}

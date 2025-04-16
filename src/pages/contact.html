@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Vinheria Agnello! Tire dúvidas, envie sugestões ou mensagens através do nosso formulário. Estamos sempre prontos para ouvir você.">
+    <meta name="keywords" content="Vinheria Agnello, contato, formulário de contato, atendimento ao cliente, fale conosco, email vinheria, suporte vinhos, dúvidas sobre vinhos, São Paulo, vinheria SP">       
     <title>Contato | Vinheria Agnello</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
@@ -27,19 +29,30 @@
     </header>
 
     <main class="contact-main">
-        <h1>Vinheria Agnello</h1>
+        <h1>Fale conosco</h1>
         <div class="contact-wrapper">
-            <img id="main-img-contact" src="../assets/imgs/glass-wine.jpg" alt="Taça de vinho" />
+            <figure id="main-img-contact">
+                <img src="../assets/imgs/jpg/glass-wine.jpg" alt="Taça de vinho">
+                <figcaption>Taça de vinho</figcaption>
+            </figure>
             <section class="contact">
                 <form action="" id="contact-form">
-                    <h3>Fale conosco</h3>
-                    <input type="email" name="email-user" id="email-user" placeholder="Seu melhor e-mail">
-                    <input type="text" name="message-user" id="message-user" placeholder="Escreva sua mensagem com carinho...">
+                    <h3>Ficaremos felizes em ouvir você 🍷</h3>
+    
+                    <label for="name-user">Nome</label>
+                    <input type="text" name="name-user" id="name-user" placeholder="Digite seu nome completo" required>
+    
+                    <label for="email-user">E-mail</label>
+                    <input type="email" name="email-user" id="email-user" placeholder="Seu melhor e-mail" required>
+    
+                    <label for="message-user">Mensagem</label>
+                    <textarea name="message-user" id="message-user" rows="5" placeholder="Escreva sua mensagem com carinho..." required></textarea>
+    
                     <button type="submit">Enviar</button>
                 </form>
             </section>
         </div>
-    </main>    
+    </main>
 
     <footer>
         <section class="footer-container">
@@ -56,7 +69,7 @@
                     <li><a href="team.html">Equipe</a></li>
                 </ul>
             </nav>
-            <section class="footer-col">
+            <address class="footer-col">
                 <h3>Contato</h3>
                 <div class="footer-contact">
                     <img id="footer-contact-phone-icon-svg" src="../assets/imgs/svg/contact-icons/phone-icon.svg" alt="Ícone de Telefone"?>
@@ -70,7 +83,7 @@
                     <img id="footer-contact-location-icon-svg" src="../assets/imgs/svg/contact-icons/location-icon.svg" alt="Ícone de Localização"?>
                     <p>Rua das Videiras, 278 - Bairro do Vinho <br> São Paulo - SP, 04500-000</p>
                 </div>
-            </section>
+            </address>
             <section class="footer-col">
                 <h3>Redes</h3>
                 <div class="footer-socialmedia">

@@ -1,0 +1,78 @@
+@import url('global/global.css');
+
+main {
+    color: var(--main-font-color);
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background-color: var(--main-background-color);
+}
+
+main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-wine-color);
+    font-family: var(--special-font-family);
+}
+
+.our-history h2 {
+    font-family: var(--special-font-family);
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary-wine-color);
+}
+
+.our-history h3 {
+    font-size: 1.6rem;
+    margin: 2rem 0 1rem;
+    font-style: italic;
+    color: var(--secundary-wine-color);
+}
+
+.our-history h4, h5 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px dashed var(--primary-wine-color);
+    border-radius: 0.5rem;
+    background-color: #ffffff80;
+}
+
+.our-history p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: 0 auto 1.5rem;
+}
+
+.our-history figure.agnellus {
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.our-history .agnellus img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 1rem;
+    padding: 4px;
+    background: linear-gradient(135deg, var(--primary-wine-color), var(--secundary-wine-color));
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.our-history .agnellus figcaption {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--main-font-color);
+}
+
+h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--primary-wine-color);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+    position: relative;
+}

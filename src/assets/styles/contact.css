@@ -11,6 +11,8 @@
 .contact-main h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: var(--primary-wine-color);
+    font-family: var(--special-font-family);
 }
 
 .contact-wrapper {
@@ -21,12 +23,19 @@
     flex-wrap: wrap;
 }
 
-#main-img-contact {
+#main-img-contact img {
     width: 400px;
     height: 500px;
     object-fit: cover;
     border-radius: 40% / 30%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+#main-img-contact figcaption {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: italic;
 }
 
 .contact {
@@ -93,6 +102,28 @@ form button {
 
 form button:hover {
     background-color: var(--secundary-wine-color);
+}
+
+form textarea {
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--secundary-wine-color);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    font-family: var(--main-font-family);
+    font-size: 1rem;
+    color: var(--main-font-color);
+    resize: vertical;
+    transition: 0.3s;
+}
+
+form textarea:focus {
+    outline: none;
+    border-color: var(--primary-wine-color);
+    box-shadow: 0 0 5px var(--secundary-wine-color);
+}
+
+form textarea::placeholder {
+    color: #888;
 }
 
 .swal2-confirm {
