@@ -2,6 +2,7 @@
 
 :root {
     --secundary-background-color: #FCFCFC;
+    --terciary-background-color: #f8f1f1;
     --secundary-font-family: 'Playfair Display', serif;
     --terciary-font-family: 'Segoe UI', sans-serif;
 }
@@ -58,7 +59,7 @@
     margin-bottom: 25px;
     padding: 15px;
     border-left: 4px solid var(--primary-wine-color);
-    background-color: var(--secundary-background-color);
+    background-color: var(--terciary-background-color);
     border-radius: 8px;
 }
 

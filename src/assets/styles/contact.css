@@ -11,6 +11,8 @@
 .contact-main h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: var(--primary-wine-color);
+    font-family: var(--special-font-family);
 }
 
 .contact-wrapper {
