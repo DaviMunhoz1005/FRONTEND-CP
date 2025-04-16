@@ -2,13 +2,13 @@
 
 #vinhos-cadastrados {
     padding: 40px 20px;
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
     text-align: center;
 }
 
 #vinhos-cadastrados h2 {
     font-size: 32px;
-    color: #023047;
+    color: var(--main-font-color);
     margin-bottom: 20px;
 }
 
@@ -21,12 +21,21 @@
 
 .vinho-card {
     width: 18%; 
-    background-color:#6B1B14;
+    background-color:var(--primary-card-bg-color);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.2s ease-in-out;
+    color: var(--main-font-color);
+}
+
+.vinho-card h3 {
+    font-size: 20px;
+}
+
+.vinho-card p {
+    font-size: 16px;
 }
 
 .vinho-card:hover {
