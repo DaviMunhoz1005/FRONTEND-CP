@@ -79,16 +79,6 @@ form input {
     transition: 0.3s;
 }
 
-form input:focus {
-    outline: none;
-    border-color: var(--primary-wine-color);
-    box-shadow: 0 0 5px var(--secundary-wine-color);
-}
-
-form input::placeholder {
-    color: #888;
-}
-
 form button {
     background-color: var(--primary-wine-color);
     color: var(--transparent-font-color);
@@ -98,10 +88,6 @@ form button {
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3s;
-}
-
-form button:hover {
-    background-color: var(--secundary-wine-color);
 }
 
 form textarea {
@@ -116,16 +102,6 @@ form textarea {
     transition: 0.3s;
 }
 
-form textarea:focus {
-    outline: none;
-    border-color: var(--primary-wine-color);
-    box-shadow: 0 0 5px var(--secundary-wine-color);
-}
-
-form textarea::placeholder {
-    color: #888;
-}
-
 .swal2-confirm {
     background-color: var(--primary-wine-color) !important;
     padding: 0.8rem 1.2rem !important;
@@ -134,8 +110,4 @@ form textarea::placeholder {
     font-size: 1rem !important;
     cursor: pointer !important;
     transition: 0.3s !important;
-}
-
-.swal2-confirm:hover {
-    background-color: var(--secundary-wine-color) !important;
 }
