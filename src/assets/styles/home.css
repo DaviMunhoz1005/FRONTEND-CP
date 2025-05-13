@@ -47,6 +47,7 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     font-family: var(--terciary-font-family);
     color: var(--primary-wine-color);
+    animation: pulse-sutil 3s ease-in-out infinite;
 }
 
 .guia h2 {
