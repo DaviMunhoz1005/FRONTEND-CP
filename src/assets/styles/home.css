@@ -81,22 +81,16 @@
     line-height: 1.6;
 }
 
-.right img {
-    position: absolute;
-    top: 1410px;
-    bottom: 50px; 
-    right: 45px;   
-    width: 300px;
-    border-radius: 10px;
-    margin-right: 50px;   
+.imagens {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 65px;
+  margin-top: -650px;  
 }
 
-.left img{
-    position:absolute;
-    top: 1410px;
-    bottom: 50px;
-    left: 45px;    
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 50px;
+.left img,
+.right img {
+  width: 300px;
+  border-radius: 15px;
 }
