@@ -33,6 +33,28 @@ O site e-commerce da vinheria utilizou dessas tecnologias:
 | [<img loading="lazy" src="https://github.com/DaviMunhoz1005.png" width=115><br><sub>Davi Marques</sub>](https://github.com/DaviMunhoz1005) |  [<img loading="lazy" src="https://github.com/matheuswildeisen.png" width=115><br><sub>Matheus Von Koss</sub>](https://github.com/matheuswildeisen) |  [<img loading="lazy" src="https://github.com/Gabsgc01.png" width=115><br><sub>Gabriel Ciriaco</sub>](https://github.com/Gabsgc01) | [<img loading="lazy" src="https://github.com/Mafraaa.png" width=115><br><sub>Vinicius Mafra</sub>](https://github.com/Mafraaa) | [<img loading="lazy" src="https://github.com/MariFranca.png" width=115><br><sub>Mariana Franca</sub>](https://github.com/MariFranca) | 
 | :---: | :---: | :---: | :---: | :---: |
 
+## Efeitos Visuais
+
+Este projeto inclui diversos efeitos visuais implementados com CSS puro, utilizando pseudo-classes, pseudo-elementos e animações suaves para melhorar a experiência do usuário. Abaixo estão os principais destaques:
+
+### ✅ Pseudo-elementos ::after animados
+- Menus (Header e Footer): Links utilizam uma linha inferior animada com ::after, que cresce suavemente ao passar o mouse, melhorando a percepção de foco e interação.
+
+- Cards da equipe (.team-card h2): Adicionam um sublinhado ao passar o mouse, reforçando visualmente o destaque do texto.
+
+### ✅ Transições suaves
+- Botões e campos de formulário: Alteram cor e sombra ao focar ou passar o mouse, com transições suaves usando transition: all 0.3s ease.
+
+- Cartões interativos (.vinho-card, .dev-card, .team-card): Escalam levemente ao passar o mouse com transform: scale(1.05) e sombra realçada.
+
+### ✅ Animações com @keyframes
+- pulse-sutil: Animação suave aplicada na seção .guia da homepage para destacar o conteúdo com um leve efeito de pulsação.
+
+- slideInFromRight: Utilizada no form da contact page para fazer com que o formulário surja da direita ao entrar na tela.
+
+### ✅ Efeito hover com gradiente
+- .team-img::before: Aplica uma sobreposição com gradiente dourado ao passar o mouse, adicionando profundidade visual.
+
 ## Licença
 
 Este projeto está licenciado sob a MIT License.

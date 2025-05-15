@@ -23,10 +23,6 @@ footer {
     margin-top: -3rem;
 }
 
-.footer-col:last-child {
-    border-right: none;
-}
-
 .footer-col h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -49,26 +45,6 @@ footer {
     color: var(--transparent-font-color);
     text-decoration: none;
     transition: color 0.3s;
-}
-
-.footer-col a::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background-color: var(--link-hover-color);
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-}
-
-.footer-col a:hover {
-    color: var(--link-hover-color);
-}
-
-.footer-col a:hover::after {
-    width: 100%;
 }
 
 #footer-logo {
@@ -112,10 +88,6 @@ footer {
 .footer-socialmedia img {
     transition: filter 0.3s ease;
     filter: sepia(17%) saturate(565%) hue-rotate(346deg) brightness(94%) contrast(90%);
-}
-
-.footer-socialmedia img:hover {
-    filter: sepia(71%) saturate(794%) hue-rotate(357deg) brightness(100%) contrast(93%);
 }
 
 #footer-socialmedia-facebook-icon-svg,
